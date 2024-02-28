@@ -1,0 +1,79 @@
+.forget-log{
+position: relative;
+left: 340px;
+display: inline;
+}
+.log-inner{
+    width: 20%;
+    height: 30%;
+}
+.pass{
+    width: 190px;
+    padding: 10px;
+    border: 2px solid #9999;
+    border-radius: 15px;
+    padding-left: 40px;
+    font-size: 1em;
+    background: transparent;
+    color: black;
+
+}
+.forget-list{
+    position: absolute;
+    left: 310px;
+    top: 10rem;
+    display: inline;
+}
+.locks{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+.forget-h{
+    position: relative;
+    left: 48px;
+    font-weight: 400;
+}
+.button-send{
+    width: 240px;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: #1d2634;
+    transition: all 0.2s ease;
+}
+.send{
+    position: relative;
+    top: 03.5rem;
+    right: 15rem;
+    display: inline;
+}
+.button-send:hover{
+    cursor: pointer;
+}
+.button-send:active{
+    transform: scale(0.96);
+}
+.button-back{
+    width: 240px;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: #1d2634;
+    position: absolute;
+    left:0;
+    top: 02.5rem;
+    transition: all 0.2s ease;
+}
+.button-back:hover{
+    cursor: pointer;
+}
+.button-back:active{
+    transform: scale(0.96);
+}

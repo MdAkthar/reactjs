@@ -1,0 +1,80 @@
+.input-field{
+    width: 29%;
+    outline: 0;
+    border: 2px solid #9999;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 1em;
+    background: transparent;
+    color: #9999;
+    margin: 05px;
+}
+.icon{
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+.input-field:focus{
+    color: black;
+    border-color:black ;
+}
+.input{
+    width: 35rem;
+    position: relative;
+   bottom: 07rem;
+   left: 20.2rem;
+}
+.input-top{
+    font-weight: 500;
+    position: relative;
+    left: 65px;
+    
+}
+.lock{
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+.button-login{
+    width: 23.9%;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: #1d2634;
+    transition: all 0.2s ease;
+}
+.button-login:active{
+    transform: scale(0.96);
+}
+.login{
+    position: relative;
+    left: 20.5rem;
+    bottom: 06.8rem;
+    display: inline;
+}   
+.button-login:hover{
+    cursor: pointer;
+    background-color: #444b58;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding: 10px;
+    margin: 40px;
+    position: relative;
+    top: 05px;
+}

@@ -1,0 +1,31 @@
+.button{
+    width: 100px;
+    height: 30px;
+    padding: 05px;
+    margin: 11px;
+    background-color: #1d2634;
+    border-radius: 05px;
+    border-color:black;
+    color: white;
+    position: relative;
+    top: 30rem;
+    left: 0.5rem;
+    transition: all 0.2s ease;
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #444b58;
+}   
+.button-inner{
+    position: relative;
+    top: 22rem;
+}
+.button-in{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-weight: 450;
+}
+.button:active{
+    transform: scale(1.20);
+}
